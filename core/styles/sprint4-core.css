@@ -1,6 +1,10 @@
 body{
   font-family:sans-serif;
   background-color:#EEE;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/ic.jpg);
   list-style-type: none;
   font-style: center;justify-content;
 }
