@@ -1,10 +1,10 @@
 body{
   font-family:sans-serif;
   background-color:#EEE;
-  background-image: url(../img/ic.jpg);
-  background-size: cover;
+  background-image: url(../img/screen.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   list-style-type: none;
   font-style: center;justify-content;
 }
@@ -32,25 +32,38 @@ width:800px;
 margin-left: auto;
 margin-right: auto;
 padding:10px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 #header{
   background-color: #66ccFF;
   color:white;
   text-align:center;
+  padding:20px;
+  }
+
+
+
+#content{
   padding:10px;
 }
-#content{
+
+.box{
+  background-blend-mode: luminosity;
+  width: 200px;
   padding:10px;
 
 }
+
+
 #nav{
   width:200px;
   float:left;
   padding:10px;
   text-align:left;
   background-color: white;
-
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
+
 .ul{
     list-style-type: none;
     background-color:white;
@@ -71,7 +84,7 @@ padding:10px;
 #Main{
   width:800px;
   float:right;
-padding:10px;
+padding:20px;
 background-color:white;
 }
 #footer{
