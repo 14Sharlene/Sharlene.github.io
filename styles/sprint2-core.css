@@ -1,6 +1,10 @@
 body{
   font-family:sans-serif;
   background-color:#EEE;
+  background-image: url(../img/photo-1529101091764-c3526dafe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   list-style-type: none;
   font-style: center;justify-content;
 }
