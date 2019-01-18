@@ -1,7 +1,11 @@
 body{
   font-family:sans-serif;
   background-color:#EEE;
+  background-position: center;
+  background-repeat: no-repeat;
   list-style-type: none;
+  background-size: cover;
+  background-image: url(../Tech/img/images.jpg);
   font-style: center;justify-content;
 }
 h1,h2,h3,h4,h5{
