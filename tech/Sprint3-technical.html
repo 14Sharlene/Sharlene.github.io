@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <link href="styles/sprint3-technical.css" rel="stylesheet" Type="text/css">
+       <link href="../styles/sprint3-technical.css" rel="stylesheet" Type="text/css">
        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -16,14 +16,11 @@
       <div class="header">
                   <h1>JavaScript And Its Relationship To HTML And CSS</h1>
 </div>
-</div>
-<div class="sidebar">
 
 
-</div>
-<div class="content">
+
 <div class="main">
-  <p>To someone who's never coded before, the concept of creating a website from scratch -- layout, design, and all -- can seem really intimidating. You might be picturing Harvard students from the movie, The Social Network, sitting at their computers with gigantic headphones on and hammering out code, and think to yourself, 'I could never do that.' </p>
+  <p>To someone who's never coded before, the concept of creating a website from scratch -- layout, design, and all -- can seem really intimidating. JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g. having complex animations, clickable buttons, popup menus, etc.).  There are also more advanced server side versions of JavaScript such as Node.Js which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. 'I could never do that.' </p>
 
 <p><strong>If you think of the difference between each structure or document.</strong></p>
 
@@ -73,7 +70,7 @@ for (i = 0; i < strArray.length; i++)
 
 <p>Any of the parts of the for loop can be empty statements; that is, you can simply include a  semicolon with no expression or statement, and that part of the for loop will be ignored.</p>
 
-  <p>Note that if you do use a null statement in your for loop, you may have to initialize increment any loop variables or loop indices yourself elsewhere in the program. </p>
+<p>Note that if you do use a null statement in your for loop, you may have to initialize increment any loop variables or loop indices yourself elsewhere in the program. </p>
 
 <p>You can also have an empty statement for the body of your for loop, if everything you want to do is in the first line of that loop. For example, here's one that finds the first prime number higher than 4000 (it calls a method called notPrime(), which will theoretically have way of figuring that out):</p>
 <div class="box">
@@ -93,35 +90,48 @@ for (i = 0; i < 10; i++);
 <h3>Functions and why they are useful</h3>
 
 <p><strong>What is a Function?</strong>
-A function is a subprogram designed to perform a particular task.
-Functions are executed when they are called. This is known as invoking a function.
+
+A function is a subprogram designed to perform a particular task.  Generally speaking, a function is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.</p>
+
+<p>Functions are executed when they are called. This is known as invoking a function.
 Values can be passed into functions and used within the function.
 Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined.
+The most fundamental of the conditional statements is the if statement. An if statement will evaluate whether a statement is true or false, and only run if the statement returns true. The code block will be ignored in the case of a false result, and the program will skip to the next section.</p>
+
+<p>An if statement is written with the if keyword, followed by a condition in parentheses, with the code to be executed in between curly brackets. In short, it can be written as if () {}.</p>
+
+<strong>Here is a longer examination of the basic if statement.</strong>
+<div class="box">
+
+if (condition) {
+    // code that will execute if condition is true
+  }
+
+</div>
+<p>The contents of an if statement are indented, and the curly brackets containing the block of code to run do not end in a semicolon, just like a function block.</p>
 
 <h4>Objects</h4>
 
-Functions are objects.Functions are function objects. In JavaScript, anything that is not a primitive type ( undefined, null,boolean, number, or string) is an object. Objects in JavaScript are extremely versatile. Because of this, we can even pass a function as a parameter into another function.
+<p>Functions are objects.Functions are function objects. In JavaScript, anything that is not a primitive type ( undefined, null,boolean, number, or string) is an object. Objects in JavaScript are extremely versatile. Because of this, we can even pass a function as a parameter into another function.
 
 When a function accepts another function as a parameter, or returns a function, it is called a higher-order function. You’ve probably already used a bunch of higher order functions and don’t even know it: Array.prototype.mapand Array.prototype.filter are higher order functions (Just to name a couple). You can check out some of my previous articles to learn more about objects and higher order functions in JavaScript…</p>
 
 <h4>The DOM and DevTools</h4>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-0ZcldkGlt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>DevTools is a set of web developers tools built directly into the Google Chrome browser.  Dev tools helps you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better website, faster.</p>
 
-    <div class="wrapper">
-      <!--<img class="image.dom"src="img/dom.jpg" alt="dom"-->
-      <div class="image-dom"></div>
+<p>The document Object Model, normally addrviated to DOM, is the way through which javaScript interacts with content within a web site. One of the ways in which we access the DOM is using Developer Tools (DevTools). DevTools also assists us with testing annd debugging websites and applications.</p>
 
-    </div>
-    <p></p>
+<p>HTML and CSS are two of the fundamental languages found almost ecerywhere on the web.  The Document Object Model provides the means to interact with objects in an HTML document.</p>
 
 
-
-
+  </div>
 </div>
-</div>
+<button><li><a href="index.html">Home</a></button>
 </body>
-      <button><li><a href="index.html">Home</a></button>
+
 
         <script src="libraries/p5.js"></script>
         <script src="libraries/p5.dom.js"></script>
@@ -133,7 +143,7 @@ When a function accepts another function as a parameter, or returns a function, 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
-    
+
 
   <div id=footer>
         <p>Copyright (c) 2018 Sharlene Ryan</p>

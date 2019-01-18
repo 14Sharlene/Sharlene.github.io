@@ -1,0 +1,8 @@
+
+to look at EQ and IQ:
+https://www.youtube.com/watch?v=MJJj0BBrWOE
+
+  https://www.youtube.com/watch?v=HgwCeNVPlo0
+
+functions:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions

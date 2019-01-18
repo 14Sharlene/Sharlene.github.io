@@ -1,0 +1,141 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color:#EEE;
+  background-image: url(../Tech/img/white.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  list-style-type: none;
+  font-style: center;justify-content;
+
+}
+.a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+  margin:0;
+font-weight:bold;
+}
+.h2{
+  text-align:right;
+  font-weight:bold;
+  font-style: center;
+}
+.h3{
+  font-weight:bold;
+  font-style: center;
+}
+#sidebar{
+  column-fill: balance;
+  resize: both;
+  grid-template-columns: auto;
+  grid-row: auto;
+  content: normal;
+
+
+}
+.p #container{
+  background-color:#99CCFF;
+  Margin-left:auto;
+  margin-right:auto;
+}
+.p{
+  text-decoration: Blue;
+}
+#container{
+background-color: #99CCFF;
+width:800px;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+}
+
+.header{
+  background-color: #66ccFF;
+  color:white;
+  text-align:center;
+  padding:10px;
+  }
+
+.content{
+  padding:10px;
+}
+
+.wrapper{
+  background-blend-mode: luminosity;
+  width:200px;
+  height: 150px;
+  padding:10px;
+}
+.float-image{
+  float: left;
+  clear:right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding:2px;
+}
+.image-me{
+  width:200px;
+  height:150px;
+  background-image: url(../img/me.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#nav{
+  width:200px;
+  float:left;
+  padding:10px;
+  padding-left: 10px;
+  text-align:center;
+  background-color: white;
+
+  }
+
+.ul{
+    list-style-type: none;
+    background-color:white;
+    color:white;
+    float:left;
+    text-align: left;
+}
+.button,li{
+  padding:10px;
+  font-weight:bold;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  list-style-type: none;
+  text-align: left;
+}
+#nav.selected{
+  font-weight:bold;
+}
+#Main{
+  width:900px;
+  float:right;
+padding:30px;
+background-color:#99CCFF;
+}
+.iframe{
+float: left;
+padding-bottom: : 10px;
+padding-right: 10px;
+clear:right;
+border: solid black 1px;
+padding:2px;
+}
+.box{
+  background-color: white;
+  width:auto;
+  height:auto;
+  padding:20px;
+  align-content: center;
+  }
+
+#footer{
+  clear:both;
+  padding:10px;
+  background-color: #999999;
+  color: white;
+  text-align:left;
+}
