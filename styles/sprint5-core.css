@@ -1,27 +1,60 @@
 body{
   font-family: 'Dancing Script', cursive;
   background-color:#EEE;
-  background-image: url(../Tech/img/white.jpg);
+  background-image: url(../Tech/img/ic.jpg);
   background-repeat: no-repeat;
   background-position: cover;
   background-size: cover;
   list-style-type: none;
   font-style: center;justify-content;
+}
+@media screen and (Max-width:999px) {
+      #container{
+        width: 100%;
+      }
+      #header{
+        width:100%;
+      }
+      #navbar{
+        width:30%;
+      }
+      #main{
+        width:70%;
+      }
+      #footer{
+        width:100%;
+      }
+      img{
+        width: 100%;
+      }
+}
 
+@media screen and (Max-width:640px) {
+  #container{
+    width: 100%;
+  }
+  #header{
+    width:100%;
+  }
+  #navbar{
+    width: 100%;
+  }
+  #main{
+    width:100%;
+  }
+  #footer{
+    width:100%;
+  }
+  img{
+    width: 100%;
+  }
 }
-h1,h2,h3,h4,h5{
-  margin:0;
-font-weight:bold;
-}
-.h2{
-  text-align:right;
-  font-weight:bold;
-  font-style: center;
-}
-.h3{
-  font-weight:bold;
-  font-style: center;
-}
+@media screen and (Max-width:320px) {
+  #container{
+    width: 100%;
+  }
+
+  }
 .p #container{
   background-color:white;
   Margin-left:auto;

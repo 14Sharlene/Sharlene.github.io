@@ -9,19 +9,53 @@ body{
   font-style: center;justify-content;
 
 }
-h1,h2,h3,h4,h5{
-  margin:0;
-font-weight:bold;
+@media screen and (Max-width:999px) {
+      #container{
+        width: 100%;
+      }
+      #header{
+        width:100%;
+      }
+      #navbar{
+        width:30%;
+      }
+      #main{
+        width:70%;
+      }
+      #footer{
+        width:100%;
+      }
+      img{
+        width: 100%;
+      }
 }
-.h2{
-  text-align:right;
-  font-weight:bold;
-  font-style: center;
+
+@media screen and (Max-width:640px) {
+  #container{
+    width: 100%;
+  }
+  #header{
+    width:100%;
+  }
+  #navbar{
+    width: 100%;
+  }
+  #main{
+    width:100%;
+  }
+  #footer{
+    width:100%;
+  }
+  img{
+    width: 100%;
+  }
 }
-.h3{
-  font-weight:bold;
-  font-style: center;
-}
+@media screen and (Max-width:320px) {
+  #container{
+    width: 100%;
+  }
+
+  }
 .p #container{
   background-color:white;
   Margin-left:auto;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 to look at EQ and IQ:
 https://www.youtube.com/watch?v=MJJj0BBrWOE
@@ -6,3 +7,13 @@ https://www.youtube.com/watch?v=MJJj0BBrWOE
 
 functions:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+=======
+
+to look at EQ and IQ:
+https://www.youtube.com/watch?v=MJJj0BBrWOE
+
+  https://www.youtube.com/watch?v=HgwCeNVPlo0
+
+functions:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+>>>>>>> 34917d33c25aa9915472c924ccb4a450895b6f0d
